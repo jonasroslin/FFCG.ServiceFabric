@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/FFCG.ServiceFabric.Application" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="MyRemoteService_PartitionCount" Value="1" />
+    <Parameter Name="MyRemoteService_MinReplicaSetSize" Value="1" />
+    <Parameter Name="MyRemoteService_TargetReplicaSetSize" Value="1" />
+    <Parameter Name="MyStatelessService_InstanceCount" Value="1" />
+    <Parameter Name="MyActorService_PartitionCount" Value="1" />
+    <Parameter Name="MyActorService_TargetReplicaSetSize" Value="1" />
+    <Parameter Name="MyActorService_MinReplicaSetSize" Value="1" />
+  </Parameters>
+</Application>
